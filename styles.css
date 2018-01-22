@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+    background-image: url("https://c.pxhere.com/photos/2e/52/cloth_blue_modern_background_art_abstract_design_backdrop-1087225.jpg!d");
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+h3 {
+    color: red;
+}
+input {
+    border-radius: 2px;
+}
+table,
+tr,
+td {
+    border: 1px solid black;  
+
+}
+tr, td {
+    -moz-box-shadow:    inset 0 0 2px hsl(0, 0%, 60%);
+    -webkit-box-shadow: inset 0 0 2px hsl(0, 0%, 60%);
+    box-shadow:         inset 0 0 2px hsl(0, 0%, 60%);
+}
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    z-index: -1;
+    background: #FFF;
+    -webkit-box-shadow: 0 35px 20px #777;
+    -moz-box-shadow: 0 35px 20px #777;
+    box-shadow: 0 35px 20px #777;
+    
+}
+
+tr {
+    height: 30px;
+}
+
+td {
+    width: 30px;
+}
+tr td:hover { background: #666; color: #FFF; cursor: pointer; 
+
+input[type=number] {
+    width: 6em;
+}
+
+
